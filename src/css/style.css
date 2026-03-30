@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    background-color: #1a1a2e;
+}
+
+form {
+    text-align: center;
+    align-items: center;
+    border: 5px solid #e94560;
+    border-radius: 12px;
+    padding: 40px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#entradas {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#entradas input {
+    text-align: center;
+    font-size: 2.6rem;
+    width: 250px;
+    background-color: #0f3460;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+#resultado {
+    padding-top: 10px;
+}
+
+#resultado input {
+    text-align: center;
+    font-size: 2.5rem;
+    width: 250px;
+    background-color: #0f3460;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+#botoes {
+    padding-bottom: 25px;
+}
+
+#botoes input {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    height: 70px;
+    width: 80px;
+    background-color: #e94560;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+#botoes input:hover {
+    background-color: #c73652;
+    transform: scale(1.01);
+}
+
+#limpar {
+    padding-top: 20px;
+}
+
+#limpar input {
+    margin-top: 20px;
+    font-size: 2rem;
+    height: 70px;
+    width: 200px;
+    background-color: #0f3460;
+    border-radius: 33px;
+    color: aliceblue;
+}
+
+#limpar input:hover {
+    background-color: #1a4a8a;
+    transform: scale(1.01);
+}
