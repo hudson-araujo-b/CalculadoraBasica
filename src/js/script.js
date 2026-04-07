@@ -17,25 +17,29 @@ function Calcular(operacao)
     else {
         n1 = parseFloat(n1);
         n2 = parseFloat(n2);
-        if(operacao == "x") {
-            result = n1 * n2;
-        }
-        else if(operacao == "%") {
-            if(n2 == 0) {
-                alert("O segundo elemento não pode ser 0 em divisões");
-                document.getElementById("val2").value = "";
-                document.getElementById("val2").focus();
-                return;
-            }
-            else {
-                result = n1 / n2;
-            } 
-        }
-        else if(operacao == "+") {
-            result = n1 + n2;
-        }
-        else {
-            result = n1 - n2;
+        switch(operacao){ 
+            case "x":
+                result = n1 * n2;
+                break;
+                
+            case "%":
+                if(n2 == 0) {
+                    alert("O segundo elemento não pode ser 0 em divisões");
+                    document.getElementById("val2").value = "";
+                    document.getElementById("val2").focus();
+                    return;
+                }
+                else {
+                    result = n1 / n2;
+                } 
+                break;
+
+            case "+":
+                result = n1 + n2;
+                break;
+
+            default:
+                result = n1 - n2;
         }
         document.getElementById("result").value = result.toFixed(2);
     }
