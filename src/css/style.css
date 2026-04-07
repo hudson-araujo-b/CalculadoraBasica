@@ -17,10 +17,10 @@ form {
     text-align: center;
     align-items: center;
     border: 5px solid #e94560;
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 40px;
     width: fit-content;
-    margin: 0 auto;
+    margin: auto;
 }
 
 #entradas {
@@ -29,8 +29,8 @@ form {
 }
 
 #entradas input {
-    text-align: center;
-    font-size: 2.6rem;
+    padding-left: 10px;
+    font-size: 2.5rem;
     width: 250px;
     background-color: #0f3460;
     border-radius: 10px;
@@ -78,12 +78,12 @@ form {
     font-size: 2rem;
     height: 70px;
     width: 200px;
-    background-color: #0f3460;
+    background-color: #134481;
     border-radius: 33px;
     color: aliceblue;
 }
 
 #limpar input:hover {
-    background-color: #1a4a8a;
+    background-color: #072c5c;
     transform: scale(1.01);
 }
